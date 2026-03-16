@@ -40,4 +40,5 @@ class ItemServiceTest {
 
         Assertions.assertEquals(30, count, "Кількість елементів у базі має бути рівно 30");
     }
+
 }
