@@ -11,7 +11,6 @@ public class ItemService {
 
     private final ItemRepository itemRepository;
 
-    // Впровадження залежності через конструктор
     public ItemService(ItemRepository itemRepository) {
         this.itemRepository = itemRepository;
     }

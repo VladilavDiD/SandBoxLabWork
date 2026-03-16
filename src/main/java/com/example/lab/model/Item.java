@@ -14,7 +14,6 @@ public class Item {
 
     private String name;
 
-    // Порожній конструктор обов'язковий для Hibernate/JPA
     public Item() {}
 
     public Item(String name) {

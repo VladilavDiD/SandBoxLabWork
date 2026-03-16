@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ItemRepository extends JpaRepository<Item, Long> {
-    // JpaRepository вже має вбудовані методи count(), saveAll(), deleteAll() тощо
+
 }
